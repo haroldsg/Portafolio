@@ -1,30 +1,30 @@
-# Harold's Portafolio 🚀
+# Harold's Portfolio 🚀
 
-¡Bienvenidos a mi portafolio! Soy Harold, un desarrollador apasionado por crear proyectos increíbles. Aquí puedes encontrar una muestra de mi trabajo y algunos de mis proyectos favoritos.
+Welcome to my portfolio! I'm Harold, a developer passionate about creating amazing projects. Here, you can find a showcase of my work and some of my favorite projects.
 
-## 🎨 Proyectos Destacados
+## 🎨 Featured Projects
 
-- [Dragon Ball Z Tribute](https://haroldsg.github.io/Dragon-ball-z-responsive/) - Un homenaje a una de las series más icónicas.
-- [Calculadora](https://haroldsg.github.io/Calculadora/) - Una calculadora simple pero poderosa.
+- [Dragon Ball Z Tribute](https://haroldsg.github.io/Dragon-ball-z-responsive/) - A tribute to one of the most iconic series.
+- [Calculator](https://haroldsg.github.io/Calculadora/) - A simple yet powerful calculator.
 
-## 🛠️ Tecnologías que Utilizo
+## 🛠️ Technologies I Use
 
 - HTML5 & CSS3
 - JavaScript (ES6+)
 - React
 - Node.js
-- y más...
+- and more...
 
-## 🌐 Enlace al Portafolio
+## 🌐 Portfolio Link
 
-Explora más de mi trabajo visitando [mi portafolio](https://haroldsg.github.io/Portafolio/).
+Explore more of my work by visiting [my portfolio](https://haroldsg.github.io/Portafolio/).
 
-## 🤝 Conéctate Conmigo
+## 🤝 Connect with Me
 
 - [GitHub](https://github.com/haroldsg)
 - [LinkedIn](https://www.linkedin.com/in/harold-franco-b659132b6/)
 
 ---
 
-¡Espero que disfruten explorando mi trabajo tanto como yo disfruté creándolo!
+I hope you enjoy exploring my work as much as I enjoyed creating it!
 

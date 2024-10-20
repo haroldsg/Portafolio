@@ -1,0 +1,199 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    font-family:cursive;
+}
+
+html {
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+  
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#navbar {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: #1b998b;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li {
+    text-decoration: none; 
+    color: inherit;
+    display: block; 
+}
+
+#navbar a {
+    font-size: 1.5rem;
+    margin: 20px;
+    transition: color 0.1s ease; /* Transición suave para el color */
+}
+
+#navbar a:hover {
+    color: #4caf50; /* Cambiar color al pasar el mouse */
+}
+
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #243642;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#welcome-section span {
+    font-size: 5rem;
+}
+
+#projects {
+    width: 100%;
+    height: 100vh;
+    background-color: #387478;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#projects  h2{
+    font-size: 2rem;
+    color: black;
+}
+
+#projects-container {
+    width: 100%;
+    height: 70vh;
+    background-color: #387478;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.project-tile{
+    width: 30%;
+    height: 80%;
+    background-color: #243642;
+}
+
+.project-tile p {
+    font-size: 1.5rem;
+    color: #c5bbae;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-tile img {
+    width: 100%;
+    height: 85%; /* Mantiene la relación de aspecto */
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.project-tile img:hover {
+    transform: scale(1.05); /* Escala a 110% */
+}
+
+.project-tile p:hover {
+    transform: scale(1.05); /* Escala a 110% */
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #243642;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 3rem;
+}
+
+#contact a {
+    transition: transform 0.2s ease, color 0.2s ease; /* Añade transición suave */
+}
+
+#contact a:hover {
+    transform: scale(1.1); /* Escala a 110% */
+    color: #1b998b;
+}
+
+#profile-link {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+#social {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-red {
+    display: flex;
+    align-items: center;
+    margin: auto 20px;
+    font-size: 1.2rem;
+}
+
+.social-red img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+
+    #projects {
+        width: 100%;
+        height: auto;
+    }
+
+    #projects h2 {
+        margin-top: 30px;
+    }
+
+    #projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-tile {
+        width: 70%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+}
